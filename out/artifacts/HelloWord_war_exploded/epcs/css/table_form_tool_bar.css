@@ -1,0 +1,49 @@
+table {
+    border: 1px solid #a3a7b3;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 20px;
+    text-align: center;
+    padding: 2px;
+}
+thead{
+    font-weight: bold;
+    background-color: #b1b1c1;
+}
+
+
+tbody tr:nth-child(2n+1) {
+    background: #d3d5dc;
+}
+
+tbody tr:hover{
+    background-color: #d3d5ef;
+
+}
+
+thead tr,tfoot tr{
+    height: 30px;
+}
+
+tfoot{
+    text-align: right;
+}
+
+td {
+    border: 1px solid #a3a7b3;
+}
+
+.tool_bar {
+    margin: 20px;
+}
+
+.current_menu{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.main_content{
+    margin: 18px;
+}
+
+

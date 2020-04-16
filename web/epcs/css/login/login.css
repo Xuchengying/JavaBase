@@ -1,0 +1,66 @@
+div {
+    /*border: 1px solid red;*/
+}
+
+.main_login {
+    background-color: rgba(36, 41, 46, 0.9);
+    width: 100%;
+}
+
+.info_login {
+    width: 78%;
+    /*height: 565px;*/
+    margin: 0 auto;
+   /* border: 1px solid red;*/
+}
+
+.text-md-left {
+    width: 58%;
+    margin-top: 180px;
+    float: left;
+}
+
+.text-md-left h1 {
+    color: #ffffff;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 500;
+    font-size: 64px !important;
+    line-height: 1 !important;
+}
+
+.text-md-left p {
+    color: #eaeadf;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 30px !important;
+    margin-top: 25px;
+}
+
+.login-right {
+    width: 35%;
+    float: right;
+    height: 90%;
+    background-color: #fafbfc;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.login-right label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: inherit;
+    text-align: left;
+
+}
+
+.login-right input {
+    width: 100%;
+    height: 40px;
+    margin: 28px auto;
+    font-size: 25px;
+    /*border-radius: 1px;*/
+}
+
+.footer {
+    margin-top: 0px;
+}

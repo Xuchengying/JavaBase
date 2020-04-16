@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Angsana New";
+}
+
+div {
+    /*border: 1px solid red;*/
+}
+
+.header {
+    background-color: #24292e;
+}
+
+.header_content {
+    /*padding-top: 15px;*/
+    width: 85%;
+    margin: 0 auto;
+    height: 65px;
+    padding-top: 10px;
+}
+
+.header_name {
+    padding-top: 4px;
+    padding-left: 17px;
+    float: left;
+}
+
+.header_content span {
+    font-size: 28px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_content a:link {
+    color: #ffffff;
+}
+
+/* 未被访问的链接 */
+.header_content a:visited {
+    color: #ffffff;
+}
+
+/* 已被访问的链接 */
+.header_content a:hover {
+    color: #ffffff;
+}
+
+/* 鼠标指针移动到链接上 */
+.header_content a:active {
+    color: #ffffff;
+}
+
+/* 正在被点击的链接 */
+
+.main {
+    /*height: 500px;*/
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+}
+
+.footer {
+    height: 80px;
+    background-color: #24292e;
+    margin-top: 8px;
+}
+
+.menu {
+    float: left;
+    width: 22%;
+    height: 550px;
+    background-color: #eaeadf;
+}
+
+.menu div{
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+.menu a:link {
+    color: #000000;
+}
+
+/* 未被访问的链接 */
+#menu a:visited {
+    color: #000000;
+}
+
+/* 已被访问的链接 */
+.menu a:hover {
+    color: #6b595e;
+}
+
+/* 鼠标指针移动到链接上 */
+.menu a:active {
+    color: #000000;
+}
+
+
+.menu ul {
+    margin-left: 42px;
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.menu li {
+    list-style: none;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.main_content {
+    background-color: #eaeadf;
+    float: left;
+    width: 76.7%;
+    height: 550px;
+    margin-left: 12px;
+}
+
+.cp_content{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
